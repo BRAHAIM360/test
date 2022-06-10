@@ -62,7 +62,7 @@ function App({ articles }) {
           onClick={() => {
             const filterd = MostUpRecent();
             console.log(filterd);
-            setFilter(() => [filterd][0]);
+            setFilter([filterd][0]);
           }}
         >
           Most Recent
