@@ -22,7 +22,7 @@ function App({ articles }) {
   };
 
   React.useEffect(() => {
-    console.log(filter);
+    console.log(filter); //console log if the state is updated
   }, [filter]);
 
   const MostUpRecent = () => {
